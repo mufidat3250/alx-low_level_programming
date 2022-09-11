@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Print "with proper grammar, but the outcome
+ * 			 is a piece of art,\n" 
  *
- * Return: value is zero
+ * Return: value is zero.
  */
 int main(void)
 {
