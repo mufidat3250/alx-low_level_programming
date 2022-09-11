@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * func main - entry point
+ * main - entry point
  *
  * return value is zero
  */
