@@ -3,7 +3,9 @@
 #include <stdio.h>
 /**
  * main - Asign random number to variable each time it is executed
- * Return: value 0*/
+ *
+ * Return: value 0
+ */
 int main(void)
 {
 	int n;
@@ -20,5 +22,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n n % 10);
 	}
+
 	return (0);
 }
