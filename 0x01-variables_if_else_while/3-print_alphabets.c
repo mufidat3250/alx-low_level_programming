@@ -5,16 +5,16 @@
  * Return: value 0
  */
 
-inti main(void)
+int main(void)
 {
-	int result
+	int result;
 
 	for (result = 'a'; result <= 'z'; result++)
 		putchar(result);
 	for (result = 'A'; result <= 'Z'; result++)
 		putchar(result);
 
-	putchar("\n")
+	putchar("\n");
 		return (0);
 
 
