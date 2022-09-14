@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Function to print putchar followed by a new line
  *
@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	putchar("_putchar \n");
-	
-		return(0);
+	_putchar('c');
+	_putchar("\n");
+
+	return(0);
 }
