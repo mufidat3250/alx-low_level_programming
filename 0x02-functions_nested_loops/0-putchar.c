@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 114};
+	char str[] = '_putchar';
 	int count, sz;
 
-	sz = sizeof(str) / sizeof(int);
+	sz = sizeof(str) / sizeof(str[0]);
 	for(count = 0; count < sz; count++)
 	{
 		_putchar(str[count]);
