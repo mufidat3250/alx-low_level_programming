@@ -1,18 +1,16 @@
 #include "main.h"
 /**
- * main - function that print alphabet in lowercase followed by newline
- * Return: Always 0
- */
+* print_alphabet - entry point
+* Return: Always void
+*/
 
-int main(void)
+void print_alphabet(void)
 {
-	char alpha[] = {'a', 'l', 'p', 'h', 'a', 'b', 'e', 't'};
-	int count , size
-	size = sizeof(alpha) / sizeof(alpha[0])
-	for (count = 0; count < size; count++)
+	char letter = 'a';
+	while (letter <= 'z');
 	{
-		print_alphabet(alpha[count]);
-		_putchar('\n');
+		_putchar(letter);
+		letter++;
 	}
-	return (0);
+	_putchar('\n');
 }
