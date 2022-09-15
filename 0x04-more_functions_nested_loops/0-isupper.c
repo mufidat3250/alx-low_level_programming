@@ -1,18 +1,20 @@
 #include "main.h"
 #include <ctype.h>
+/**
+ * _isupper - function to check for upper case charaacter
+ *
+ * Return: value 0 or 1
+ */
 int _isupper(int c)
 {
-	char alphabet[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-		'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}
-	
-	int size = sizeof(alphabet) / sizeof(alphabet[char])
-		
-	for (int letter = 0; letter < size; letter++)
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+	int size = strlen(alphabet);
+
+	for (int i = 0; i < size; i++)
 	{
-		if (c == toupper(alphabet[letter]))
+		if (c == toupper(alphabet[i]))
 			return (1);
 		else
-			return (0);
+			return (0)
 	}
-	return (0);
 }
