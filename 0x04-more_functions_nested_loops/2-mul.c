@@ -1,11 +1,11 @@
-#include "main"
+#include "main.h"
 /**
- * mul - function to multiply two digit
- * @a: first integer to multiple
- * @b: second integer to multiple
- * Return: the result of the multiplication
+ * mul - Multiple two integers
+ * @a: first integer to be multiplied
+ * @b: sec integer to multiple
+ *
+ * Return: return the multipled value
  */
-
 int mul(int a, int b)
 {
 	return (a * b);
