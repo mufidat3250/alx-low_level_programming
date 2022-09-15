@@ -7,14 +7,9 @@
  */
 int _isupper(int c)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	int size = strlen(alphabet);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 
-	for (int i = 0; i < size; i++)
-	{
-		if (c == toupper(alphabet[i]))
-			return (1);
-		else
-			return (0)
-	}
+	else
+		return (0);
 }
