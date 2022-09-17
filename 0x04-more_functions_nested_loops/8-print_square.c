@@ -5,24 +5,22 @@
  * @size: parameter
  * Return: value is void
  */
-
 void print_square(int size)
 {
-	int i, j;
+	int hgt, wid;
 
 	if (size > 0)
 	{
-		for (i = 0; i < size; i++)
+		for (hgt = 0; hgt < size; hgt++)
 		{
-			for (j = 0; j < size; j++)
-				_putchar("#");
+			for (wid = 0; wid < size; wid++)
+				_putchar('#');
 
-			if (i == size - 1)
+			if (hgt == size - 1)
 				continue;
-			_putchar("\n");
+			_putchar('\n');
 		}
 	}
 
 	_putchar('\n');
-
 }
