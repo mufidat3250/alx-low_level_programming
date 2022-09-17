@@ -1,4 +1,4 @@
-#include <std.io>
+#include <stdio.h>
 /**
  * main - entry point
  *
@@ -15,7 +15,7 @@ int main(void)
 			printf("FizzBuss")
 		}
 		else if (i % 3 == 0)
-		{
+		{i
 			printf("Fizz");
 		}
 		else if (i % 5 == 0)
