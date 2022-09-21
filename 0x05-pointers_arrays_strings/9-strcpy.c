@@ -1,5 +1,4 @@
 nclude "main.h"
-#include "2-strlen.c"
 /**
  * _strcpy - main function to copy
  *
@@ -10,11 +9,12 @@ nclude "main.h"
 
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int i = -1;
 
-	for (i = 0; i <= _strlen(src); i++)
-	{
+	do {
+		i++;
 		dest[i] = src[i];
-	}
+	} while (src[i] != '\0');
+
 	return (dest);
 }
